@@ -12,7 +12,8 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:e2e": "playwright test",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "netlify-build": "npm install -g pnpm && pnpm install && pnpm build"
   },
   "dependencies": {
     "next": "14.0.4",
